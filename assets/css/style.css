@@ -24,13 +24,14 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 200%;
-    color: darkgreen;
+    color: #252525;
+    padding-left: 30px;
 }
 
 /* nav bar styling */
 
 #menu {
-    font-size: 100%;
+    font-size: 110%;
     letter-spacing: 2px;
 }
 
@@ -59,8 +60,28 @@ h1, h2 {
 
 /* hero image background */
 
-#attack-plane-image {
+#hero-text, #hero-text h2 {
+    color: #3a3a3a;
+}
+
+#hero-image {
     height: 600px;
     width: 100%;
-    background-image: url("../images/logo.jpg") no-repeat center center;
+    background: url("../images/hero-logo.png") no-repeat center center;
+    clear: both;
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: lato, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba (34,139,34, .8);
 }
