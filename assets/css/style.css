@@ -60,14 +60,6 @@ h1, h2 {
 
 /* hero image background and cover text */
 
-#hero-outer {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-
-    position: relative;
-}
-
 #hero-text, #cover-text h2, #cover-text h3 {
     color: #fff;
 }
@@ -156,6 +148,7 @@ hr {
     margin: 20px 0;
     font-size: 200%;
     margin-bottom: 30px;
+    background-color: rgba(241, 109, 107, .7)
 }
 
 #circle-container {
