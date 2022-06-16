@@ -218,10 +218,10 @@ footer {
 /* schedule page*/
 
 #schedule {
-    height: 1000px;
+    height: 600px;
 }
 
-#scedule-left-about {
+#schedule-left-about {
     padding-top: 30px;
     width: 33%;
     float: left;
@@ -253,26 +253,23 @@ hr {
     margin: 5px;
 }
 
-.schedule-left-about-heading {
-    width: 60%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
+/* schedule left about table */
+
+table {
+	width: 100%;
+    padding-right: 15px;
 }
 
-.schedule-right-about-heading {
-    width: 60%;
-    float: left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
+tr {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.schedule-right-about-heading h2 {
-    text-align: right;
+tr, th, td {
+	text-align: left;
 }
 
-.schedule-right-about-heading p {
-    text-align: right;
+th, td {
+	border: 1px solid black;
+	padding: 5px;
 }
