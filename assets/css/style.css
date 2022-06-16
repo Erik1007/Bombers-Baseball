@@ -253,6 +253,21 @@ hr {
     margin: 5px;
 }
 
+#regional {
+    padding-left: 30px;
+    padding-bottom: 30px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#drop {
+    padding-left: 30px;
+    padding-bottom: 30px;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
 /* schedule left about table */
 
 table {
