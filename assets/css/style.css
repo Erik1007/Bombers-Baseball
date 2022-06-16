@@ -240,3 +240,42 @@ footer {
     margin: 0 auto;
     box-sizing: border-box;
 }
+
+#schedule-welcome {
+    clear: both;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 200%;
+    margin-bottom: 30px;
+    background-color: rgba(241, 109, 107, .7)
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px;
+}
+
+.schedule-left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.schedule-right-about-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.schedule-right-about-heading h2 {
+    text-align: right;
+}
+
+.schedule-right-about-heading p {
+    text-align: right;
+}
