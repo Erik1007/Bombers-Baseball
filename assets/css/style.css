@@ -185,14 +185,13 @@ hr {
 #right-map {
     width: 50%;
     box-sizing: border-box;
-    font-size: 300%;
+    font-size: 250%;
     margin: auto 0;
     padding: 150px;
     color: #3a3a3a;
     float: left;
     text-align: center;
 }
-
 
 /* footer section */
 
