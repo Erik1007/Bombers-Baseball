@@ -168,10 +168,37 @@ hr {
     border-radius: 50%;
 }
 
+/* find us section */
+
+#find-us {
+    height: 500px;
+    width: 100%;
+    clear: both;
+}
+
+#left-map {
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+}
+
+#right-map {
+    width: 50%;
+    box-sizing: border-box;
+    font-size: 200%;
+    margin: auto 0;
+    padding: 150px;
+    color: #3a3a3a;
+    float: left;
+    text-align: center;
+}
+
+
 /* footer section */
 
 footer {
     height: 150px;
+    background-color: rgba(241, 109, 107, .7)
 }
 
 .social-networks {
@@ -183,7 +210,7 @@ footer {
 }
 
 .social-networks i {
-    font-size: 160%;
+    font-size: 200%;
     margin: 1%;
     padding: 5%;
     color: #3a3a3a;
