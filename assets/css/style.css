@@ -14,7 +14,7 @@ body {
 
 /* Style setting for Header and Logo */
 
-h1, h2 {
+h1, h2, h3, h4 {
     font-family: Merriweather, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -73,7 +73,7 @@ h1, h2 {
 
 #cover-text {
     font-size: 130%;
-    font-family: lato, sans-serif;
+    font-family: Merriweather, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     text-align: center;
@@ -81,7 +81,7 @@ h1, h2 {
     height: 150px;
     
     padding-top: 25px;
-    background-color: rgba(34,139,34,.7);
+    background-color: rgba(34,139,34,.6);
     border-radius: 40px;
 
     bottom: 10px;
@@ -121,6 +121,7 @@ hr {
 
 .left-about-heading {
     width: 60%;
+    font-family: Merriweather, sans-serif;
     float: right;
     line-height: 20px;
     clear: both;
@@ -129,6 +130,7 @@ hr {
 
 .right-about-heading {
     width: 60%;
+    font-family: Merriweather, sans-serif;
     float: left;
     line-height: 20px;
     clear: both;
@@ -225,6 +227,7 @@ footer {
     padding-top: 30px;
     width: 33%;
     float: left;
+    background-color: rgba(34,139,34,.6);
 }
 
 #schedule-right-about {
@@ -236,6 +239,10 @@ footer {
 #schedule-center-about {
     width: 33%;
     margin: 0 auto; 
+}
+
+#schedule-center-about-img {
+    padding-left: 25px;
 }
 
 #schedule-welcome {
@@ -254,18 +261,17 @@ hr {
 }
 
 #regional {
-    padding-left: 30px;
+    padding-left: 50px;
     padding-bottom: 30px;
     text-decoration: none;
     list-style-type: none;
 }
 
 #drop {
-    padding-left: 30px;
+    padding-left: 50px;
     padding-bottom: 30px;
     text-decoration: none;
     list-style-type: none;
-
 }
 
 /* schedule left about table */
