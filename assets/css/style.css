@@ -314,9 +314,9 @@ th, td {
 
 .signup {
     margin: 150px 10% 0 0;
-    color: #fafafa;
+    color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
-    max-width: 400px;
+    max-width: 300px;
     position: absolute;
     left: 10%;
     padding: 30px;
@@ -325,16 +325,6 @@ th, td {
 .signup > h2 {
     color:#fafafa;
     margin-bottom:20px;
-}
-
-.text-input {
-    background: transparent;
-    color: #fafafa;
-    width: 100%;
-    height: 50px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
 }
 
 .text-input:hover {
@@ -355,4 +345,110 @@ th, td {
 .join-button:hover {
     background-color: #fafafa;
     color: #f16c6b;
+}
+
+#contact {
+    float: right;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    text-align: right;
+    margin-top: 150px;
+}
+
+#email {
+    width: 33%;
+    font-size: 110%;
+    font-family: Merriweather, sans-serif;
+    color: #fff;
+}
+
+/* media querries */
+
+/* for medium to large screen size */
+
+@media screen and (max-width: 1200px) {
+    #club-ethos {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #welcome {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #left-about, #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #center-about {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #times > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+
+    }
+
+    hr {
+        display: none;
+    }
+}
+
+/* for medium screen sizes of 950px and down */
+
+@media screen and (max-width: 950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #cover-text {
+        left: 0;
+    }
+
+    #club-ethos {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .left-about-heading, .right-about-heading {
+        width: inherit;
+    }
+
+    .left-about-heading h2, .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p, .right-about-heading p {
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #photos {
+        column-count: 3;
+    }
+}
+
+/* mobile screen max width 800 px */
+
+@media screen and (max-width: 800px){
+    #photos {
+        column-count: 2;
+    }
 }
