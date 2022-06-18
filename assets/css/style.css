@@ -84,8 +84,8 @@ h1, h2, h3, h4 {
     background-color: rgba(34,139,34,.6);
     border-radius: 40px;
 
-    bottom: 10px;
-    right: 125px;
+    bottom: 0px;
+    right: 50px;
 
     position: absolute;
 }
@@ -150,7 +150,7 @@ hr {
     margin: 20px 0;
     font-size: 200%;
     margin-bottom: 30px;
-    background-color: rgba(241, 109, 107, .7)
+    background-color: #e32314;
 }
 
 #circle-container {
@@ -199,7 +199,7 @@ hr {
 
 footer {
     height: 150px;
-    background-color: rgba(241, 109, 107, .7)
+    background-color: #e32314;
 }
 
 .social-networks {
@@ -224,16 +224,16 @@ footer {
 }
 
 #schedule-left-about {
-    padding-top: 30px;
+    padding-top: 10px;
     width: 33%;
     float: left;
-    background-color: rgba(34,139,34,.6);
 }
 
 #schedule-right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
+    background-color: rgba(34,139,34,.6);
 }
 
 #schedule-center-about {
@@ -242,7 +242,7 @@ footer {
 }
 
 #schedule-center-about-img {
-    padding-left: 25px;
+    padding-left: 0px;
 }
 
 #schedule-welcome {
@@ -251,13 +251,21 @@ footer {
     margin: 20px 0;
     font-size: 200%;
     margin-bottom: 30px;
-    background-color: rgba(241, 109, 107, .7)
+    background-color: #e32314;
 }
 
 hr {
     border-top: 1px solid #3a3a3a;
     width: 100%;
     margin: 5px;
+}
+
+#schedule-left-about h3 {
+    font-size: 150%;
+}
+
+#schedule-right-about h3 {
+    font-size: 150%;
 }
 
 #schedule-left-about h3, h4 {
@@ -269,6 +277,7 @@ hr {
     padding-bottom: 30px;
     text-decoration: none;
     list-style-type: none;
+    background-color: #e32314;
 }
 
 #drop {
@@ -276,6 +285,7 @@ hr {
     padding-bottom: 30px;
     text-decoration: none;
     list-style-type: none;
+    background-color: #39a5e9;
 }
 
 /* schedule right about table */
@@ -319,14 +329,14 @@ th, td {
     background: url("../images/baseball.png");
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 700px;
 }
 
 #contact-form {
     color: #fafafa;
     padding-left: 30px;
     padding-top: 15px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 #contact-form h2 {
@@ -334,7 +344,7 @@ th, td {
 }
 
 .text-input:hover {
-    border-color: #f16c6b;
+    border-color: #e32314;
 }
 
 .join-button {
@@ -344,14 +354,14 @@ th, td {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #f16c6b;
+    background-color: #e32314;
     color: #fafafa;
     display: block;
 }
 
 .join-button:hover {
     background-color: #fafafa;
-    color: #f16c6b;
+    color: #e32314;
 }
 
 #contact {
