@@ -325,7 +325,8 @@ th, td {
 #contact-form {
     color: #fafafa;
     padding-left: 30px;
-    margin-top: 50px;
+    padding-top: 15px;
+    margin-top: 10px;
 }
 
 #contact-form h2 {
