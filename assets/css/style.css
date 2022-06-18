@@ -260,21 +260,25 @@ hr {
     margin: 5px;
 }
 
+#schedule-left-about h3, h4 {
+    text-align: center;
+}
+
 #regional {
-    padding-left: 50px;
+    text-align: center;
     padding-bottom: 30px;
     text-decoration: none;
     list-style-type: none;
 }
 
 #drop {
-    padding-left: 50px;
+    text-align: center;
     padding-bottom: 30px;
     text-decoration: none;
     list-style-type: none;
 }
 
-/* schedule left about table */
+/* schedule right about table */
 
 table {
 	width: 100%;
