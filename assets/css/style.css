@@ -312,7 +312,7 @@ th, td {
     width: 100%;  
 }
 
-/* Form */
+/* contact page form */
 
 .form {
     clear: left;
@@ -322,19 +322,14 @@ th, td {
     height: 600px;
 }
 
-.signup {
-    margin: 150px 10% 0 0;
-    color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
-    max-width: 300px;
-    position: absolute;
-    left: 10%;
-    padding: 30px;
+#contact-form {
+    color: #fafafa;
+    padding-left: 30px;
+    margin-top: 50px;
 }
 
-.signup > h2 {
-    color:#fafafa;
-    margin-bottom:20px;
+#contact-form h2 {
+    color: #3a3a3a;
 }
 
 .text-input:hover {
@@ -343,6 +338,7 @@ th, td {
 
 .join-button {
     margin-top: 20px;
+    margin-left: 5%;
     border-radius: 2px;
     padding: 15px 32px 15px 32px;
     text-align: center;
@@ -362,7 +358,7 @@ th, td {
     padding-bottom: 15px;
     padding-right: 15px;
     text-align: right;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 #email {
