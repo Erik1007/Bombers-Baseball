@@ -145,7 +145,7 @@ hr {
     text-align: right;
 }
 
-#welcome {
+.welcome {
     text-align: center;
     margin: 20px 0;
     font-size: 200%;
@@ -339,6 +339,13 @@ th, td {
     margin-top: 5px;
 }
 
+.contact-form {
+    color: #fafafa;
+    padding-left: 30px;
+    padding-top: 15px;
+    margin-top: 5px;
+}
+
 #contact-form h2 {
     color: #3a3a3a;
 }
@@ -372,7 +379,7 @@ th, td {
     margin-top: 100px;
 }
 
-#email {
+.email {
     width: 33%;
     font-size: 110%;
     font-family: Merriweather, sans-serif;
