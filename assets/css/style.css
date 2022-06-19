@@ -184,6 +184,12 @@ hr {
     float: left;
 }
 
+#left-map img {
+    height: 405px;
+    width: 629px;
+    padding-left: 15px;
+}
+
 #right-map {
     width: 50%;
     box-sizing: border-box;
@@ -326,7 +332,7 @@ th, td {
 
 .form {
     clear: left;
-    background: url("../images/baseball.png");
+    background: url("../images/baseball.jpg");
     background-size: cover;
     background-position: center;
     height: 700px;
