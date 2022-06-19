@@ -168,6 +168,7 @@ hr {
 #circle-cover-bg {
     background: url("../images/team.png") no-repeat center center;
     height: 100%;
+    width: 100%;
     border-radius: 50%;
 }
 
@@ -337,6 +338,7 @@ th, td {
     background-size: cover;
     background-position: center;
     height: 700px;
+    width: 100%;
 }
 
 #contact-form {
