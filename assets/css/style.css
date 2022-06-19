@@ -23,7 +23,7 @@ h1, h2, h3, h4 {
 
 #logo {
     float: left;
-    font-size: 280%;
+    font-size: 300%;
     color: #252525;
     padding-left: 30px;
 }
@@ -43,6 +43,7 @@ h1, h2, h3, h4 {
     float: right;
     list-style-type: none;
     margin: 15px;
+    padding-right: 15px;
 }
 
 #menu a {
