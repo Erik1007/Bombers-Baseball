@@ -34,13 +34,13 @@ The 'about us' section aims to clearly state some of the benefits and draws for 
 
 The 'Find Us' section:
 
-There is a map with a laid out plan for a person to travel from the metro station to the field and where the field is located in Stockholm. There are twp links: one to the swedish transportion webpage for commuters and the second is to Google maps so that a visitor can find their own directions to the field.
+There is a map with a laid out plan for a person to travel from the metro station to the field and where the field is located in Stockholm. There are two links: one to the swedish transportion webpage for commuters and the second is to Google maps so that a visitor can find their own directions to the field.
 
 -> insert pic of the find us section
 
 Footer:
 
-The footer section is consisten on every page and contains four links. Two of the icons represen links to our social netwrok site. The third link is to the club to which we belong that represents the other teams in the club. The last link connects to the Swedish baseball federation that has the team rsoster, schedule, results and statistics.
+The footer section is consistent on every page and contains four links. Two of the icons represen links to our social netwrok site. The third link is to the club to which we belong that represents the other teams in the club. The last link connects to the Swedish baseball federation that has the team roster, schedule, results and statistics.
 
 -> inert pic of footer bar here
 
@@ -51,7 +51,7 @@ This area is designed to provide dates, times and location for all of the team e
 In the left are the practice times are color coordinated to the calander in the middle section. 
 The red section match with the red circles which represent the team practices left for this year.
 The blue section match with the blue circles on the calander which represent the 'open/drop in' practices which are free to anyone that wants to try baseball or just get extra plaing time. 
-The green table on the right hand side matches with the green circles in the calander which show the remaining games, (dates, times and information) for the remainder fo the year.
+The green table on the right hand side matches with the green circles in the calander which show the remaining games, (dates, times and information) for the remainder for the year.
 
 -> insert pic of the schedule page here
 
@@ -67,11 +67,16 @@ This page provides the user a means to sign up to join a practice and a means to
 The form on the left hand side has contact information and buttons to provide a little background information on the player that wants to join the team. 
 On the lower right hand side there are email links for the baseball team and the two coaches that run the team.
 
-Future features to include nd implement:
+Future features to include and implement:
+
 1.In the future I would like to add a “timed slide show effect” to the hero image section to create a rotating background image set for the hero image section of the landing page.
+
 2.I would like to include an interactive schedule with a scroll bar that has highlighted days for the games that link to the Swedish baseball game results page.
+
 3.I have the idea to create a page with links to a few vendors that the players use to buy gloves, bats and other miscellaneous items. With listings and recommendations for appropriate gear.
+
 4.I would also like to set up an online store where Bomber shirts, hats and stickers that I have designed and created can be purchased/ordered.
+
 5.I would also like to create a member section of the webpage that has a messaging service and an events calendar for members to sign up to team events (similar to what we have now in Facebook, but without being on Facebook).
 
 Testing:
@@ -80,22 +85,40 @@ Testing:
 ->validator testing css
 
 
-unfixed bugs
+Unfixed bugs:
+
+There is one unfixed bug in for the webpage. It is on the gallery page and the bug states that the section does not include a header; which is intentional.
+The section is directly under the nav bar with the gallery page link underlined clearly indicating what page the site is on, and I therefor chose to skip having a redundant header that would take away from the collage of team pictures.
+
+-> insert bug pic here:
 
 Deployment
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
-In the GitHub repository. 
-Navigate to the Settings tab, then selecting the 'pages link on the left hand link section. selecting the source section in the drop down tab, select the Master Branch.Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-The live link can be found here - https://erik1007.github.io/Bombers-Baseball/
+1.Enter the GitHub repository. 
+
+2.Navigate to the Settings tab, then selecting the 'pages link on the left hand link section. selecting the source section in the drop down tab, select the Master Branch.
+
+3.Once the master branch has been selected, the page will be automatically refreshed with a detailed green ribbon display to indicate the successful deployment.
+
+4.The live link can be found here - https://erik1007.github.io/Bombers-Baseball/
+
 
 Credits:
 
 Content:
-a.	Followed throug the lessons in the Code Insititute 'Love Running' and 'Coders Cafe' projects to create the Nav bar, hero image, 'about us', footer, schedule page, gallery page, and contact form set up. Along wth the css responsive code.
+a.	Followed throug the lessons in the Code Insititute 'Love Running' and 'Coders Cafe' projects to create the Nav bar, hero image, 'about us', footer, schedule page, gallery page, and contact form set up. Along wth the css responsive code. The Code Insitute lessons and follow along sessions provided much of the code support used in this webpage design.
+
 b.	Icons from “fontawesome.com”
-c.	Links and info from Swedish Bassboll Federation and Stockholm Basball Klubb
-d. Stackoverflow for 
+
+c.	Links and info from Swedish Bassboll Federation and Stockholm Basball Klubb.
+
+d. Stackoverflow for media querry code in the css, external links assistance and class vs. id setup in the css.
+
+e. Photoshop for rgba codes, and file conversion.
+
+f. w3c (https://validator.w3.org/) for error debugging and css assistance on class development in the schedule page and gallery page.
+
 
 Media:
-All images were taken by myself and from the Bombers closed group Facebook group page
+All images were taken by myself and from the Bombers closed group Facebook group page.
