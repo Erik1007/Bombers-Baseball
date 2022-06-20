@@ -64,7 +64,9 @@ On this page a visitor will see a collage of the Bombers team members playing ba
 The Contact page:
 
 This page provides the user a means to sign up to join a practice and a means to contact the team and its coaches. 
+
 The form on the left hand side has contact information and buttons to provide a little background information on the player that wants to join the team. 
+
 On the lower right hand side there are email links for the baseball team and the two coaches that run the team.
 
 Future features to include and implement:
@@ -82,6 +84,7 @@ Future features to include and implement:
 Testing:
 
 ->Validator testing html
+
 ->validator testing css
 
 
@@ -95,6 +98,7 @@ The section is directly under the nav bar with the gallery page link underlined 
 Deployment
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
+
 1.Enter the GitHub repository. 
 
 2.Navigate to the Settings tab, then selecting the 'pages link on the left hand link section. selecting the source section in the drop down tab, select the Master Branch.
