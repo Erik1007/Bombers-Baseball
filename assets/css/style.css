@@ -72,7 +72,7 @@ h1, h2, h3, h4 {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url("../images/hero2.png") no-repeat center center;
+    background: url("../images/hero2.webp") no-repeat center center;
     clear: both;
 }
 
@@ -173,7 +173,7 @@ hr {
 }
 
 #circle-cover-bg {
-    background: url("../images/team.png") no-repeat center center;
+    background: url("../images/team.webp") no-repeat center center;
     height: 100%;
     width: 100%;
     border-radius: 50%;
@@ -233,7 +233,6 @@ footer {
 }
 
 /* schedule page*/
-
 
 #schedule-welcome {
     clear: both;
@@ -310,6 +309,7 @@ th, td {
 
 #gallery > img {
     width: 100%; 
+    height: auto;
     padding: 2px; 
 }
 
@@ -317,7 +317,7 @@ th, td {
 /* This section uses structure and code found in the 'Coders Cafe' example project on the Code Institute learning platform */
 .form {
     clear: left;
-    background: url("../images/baseball.jpg");
+    background: url("../images/baseball.webp");
     background-size: cover;
     background-position: center;
     height: 700px;
