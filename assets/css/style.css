@@ -332,7 +332,7 @@ th, td {
 }
 
 .contact-form {
-    color: #fafafa;
+    color: #fafafa
     padding-left: 30px;
     padding-top: 15px;
     margin-top: 5px;
@@ -465,6 +465,9 @@ th, td {
 /* mobile screen max width 500 px */
 
 @media screen and (max-width: 500px){
+
+    
+
     #gallery {
         column-count: 2;
     }
@@ -477,4 +480,28 @@ th, td {
     .column {
         width: 100%;
     }
+
+    /* contact page */
+
+    .form {
+        width: fit-content;
+        height: fit-content;
+    }
+
+    #info {
+        color: #3a3a3a;
+        text-align: center;
+    }
+
+    #contact {
+        color: #3a3a3a;
+    }
+
+    .contact-form {
+        color: #3a3a3a;
+        padding: 2px;
+    }
+
+
+
 }
