@@ -231,6 +231,7 @@ footer {
 }
 
 /* schedule page*/
+
 #schedule-welcome {
     clear: both;
     text-align: center;
@@ -242,7 +243,7 @@ footer {
 }
 
 #schedule {
-    height: 600px;
+    height: 620px;
     width: 100%;
 }
 
@@ -261,16 +262,17 @@ hr {
     width: 100%;
     margin: 5px;
 }
-#container{
+
+.container {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+    clear: both;
 }
 
-#container > div {
-    width: 33%;
-    height: auto;
+.container-column {
+    flex: 33%;
+    padding: 4px;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 /* schedule table */
@@ -456,15 +458,19 @@ th, td {
     }
 }
 
-/* mobile screen max width 800 px */
+/* mobile screen max width 500 px */
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 500px){
     #gallery {
         column-count: 2;
     }
 
     #menu li {
         float: none;
+        width: 100%;
+    }
+
+    .column {
         width: 100%;
     }
 }
