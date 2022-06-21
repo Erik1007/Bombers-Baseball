@@ -125,4 +125,8 @@ f. w3c (https://validator.w3.org/) for error debugging and css assistance on cla
 
 
 Media:
-All images were taken by myself and from the Bombers closed group Facebook group page.
+All gallery images were taken by myself and from the Bombers closed group Facebook group page.
+
+Hero image came from http://Dreamstime.com (baseball hit).
+
+Contact background image came from http://depositphotos.com (baseball on chalk line)

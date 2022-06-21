@@ -152,10 +152,11 @@ hr {
 
 .welcome {
     text-align: center;
+    color: #fff;
     margin: 20px 0;
     font-size: 200%;
     margin-bottom: 30px;
-    background-color: #e32314;
+    background-color: rgba(244, 10, 10, .6);
 }
 
 #circle-container {
@@ -211,7 +212,7 @@ hr {
 
 footer {
     height: 150px;
-    background-color: #e32314;
+    background-color: rgba(244, 10, 10, .6);
 }
 
 .social-networks {
@@ -226,7 +227,7 @@ footer {
     font-size: 250%;
     margin: 1%;
     padding: 5%;
-    color: #3a3a3a;
+    color: #fff;
 }
 
 /* schedule page*/
@@ -263,7 +264,8 @@ footer {
     margin: 20px 0;
     font-size: 200%;
     margin-bottom: 30px;
-    background-color: #e32314;
+    color: #fff;
+    background-color: rgba(244, 10, 10, .6);
 }
 
 hr {
@@ -289,7 +291,7 @@ hr {
     padding-bottom: 30px;
     text-decoration: none;
     list-style-type: none;
-    background-color: #e32314;
+    background-color: rgba(244, 10, 10, .6);
 }
 
 #drop {
@@ -331,7 +333,8 @@ th, td {
 }
 
 #gallery > img {
-    width: 100%;  
+    width: 100%; 
+    padding: 2px; 
 }
 
 /* contact page form */
@@ -364,7 +367,7 @@ th, td {
 }
 
 .text-input:hover {
-    border-color: #e32314;
+    border-color: rgba(244, 10, 10, .6);
 }
 
 .join-button {
@@ -374,14 +377,14 @@ th, td {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #e32314;
+    background-color: rgba(244, 10, 10, .6);
     color: #fafafa;
     display: block;
 }
 
 .join-button:hover {
     background-color: #fafafa;
-    color: #e32314;
+    color: rgba(244, 10, 10, .6);
 }
 
 #contact {
