@@ -123,6 +123,8 @@ e. Photoshop for rgba codes, and file conversion.
 
 f. w3c (https://validator.w3.org/) for error debugging and css assistance on class development in the schedule page and gallery page.
 
+g. w3schools.com/howto_css_images_side_by_side.asp to help sructure the updated schedule page changes
+
 
 Media:
 All gallery images were taken by myself and from the Bombers closed group Facebook group page.

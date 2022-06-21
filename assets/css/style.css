@@ -231,33 +231,6 @@ footer {
 }
 
 /* schedule page*/
-
-#schedule {
-    height: 600px;
-}
-
-#schedule-left-about {
-    padding-top: 10px;
-    width: 33%;
-    float: left;
-}
-
-#schedule-right-about {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
-    background-color: rgba(34,139,34,.6);
-}
-
-#schedule-center-about {
-    width: 33%;
-    margin: 0 auto; 
-}
-
-#schedule-center-about-img {
-    padding-left: 0px;
-}
-
 #schedule-welcome {
     clear: both;
     text-align: center;
@@ -268,45 +241,43 @@ footer {
     background-color: rgba(244, 10, 10, .6);
 }
 
+#schedule {
+    height: 600px;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    clear: both;
+}
+
+.column {
+    flex: 33%;
+    padding: 2px;
+}
+
 hr {
     border-top: 1px solid #3a3a3a;
     width: 100%;
     margin: 5px;
 }
-
-#schedule-left-about h3 {
-    font-size: 150%;
+#container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
 
-#schedule-right-about h3 {
-    font-size: 150%;
+#container > div {
+    width: 33%;
+    height: auto;
 }
 
-#schedule-left-about h3, h4 {
-    text-align: center;
-}
-
-#regional {
-    text-align: center;
-    padding-bottom: 30px;
-    text-decoration: none;
-    list-style-type: none;
-    background-color: rgba(244, 10, 10, .6);
-}
-
-#drop {
-    text-align: center;
-    padding-bottom: 30px;
-    text-decoration: none;
-    list-style-type: none;
-    background-color: #39a5e9;
-}
-
-/* schedule right about table */
+/* schedule table */
 
 table {
-	width: 100%;
-    padding-right: 15px;
+	width: auto;
+    background-color: rgba(34,139,34,.6);
 }
 
 tr {
@@ -315,7 +286,7 @@ tr {
 }
 
 tr, th, td {
-	text-align: left;
+	text-align: center;
 }
 
 th, td {
