@@ -22,20 +22,17 @@ h1, h2, h3, h4 {
 }
 
 .nav-list {
-    background: white;
-    box-shadow: 0px 0px 10px var(--clr-gray200);
     margin: 0;
     padding: 1rem 0;
     list-style-type: none;
     text-decoration: none;
-    border-radius: 25px;
     display: flex;
     justify-content: flex-end;
     align-items: center;  
   }
   
   .nav-item a {
-    margin-right: 2rem;
+    margin-right: 4rem;
     color: #3a3a3a;
   }
 
@@ -45,7 +42,7 @@ h1, h2, h3, h4 {
   
   .nav-item:first-child{
     margin-right: auto;
-    margin-left: 2rem;
+    margin-left: 4rem;
   }
 
 .active {
@@ -202,16 +199,18 @@ hr {
 
 /* footer section */
 /* This section uses structure and code found in the 'love running' example project on the Code Institute learning platform */
-footer {
-    height: 150px;
-    background-color: rgba(244, 10, 10, .6);
-}
 
 .social-networks {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 150px;
+    background-color: rgba(244, 10, 10, .6);
+    list-style-type: none;
+    text-decoration: none;
 }
 
-.social-networks > li {
+.social-networks-item a {
     display: inline;
 }
 
