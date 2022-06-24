@@ -14,7 +14,10 @@ body {
 
 /* Style setting for Header and Logo */
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     font-family: Merriweather, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -28,22 +31,23 @@ h1, h2, h3, h4 {
     text-decoration: none;
     display: flex;
     justify-content: flex-end;
-    align-items: center;  
-  }
-  
-  .nav-item a {
+    align-items: center;
+}
+
+.nav-item a {
     margin-right: 4rem;
     color: #3a3a3a;
-  }
+    font-size: 150%;
+}
 
-  .nav-item a:hover {
+.nav-item a:hover {
     border-bottom: 1px solid #3a3a3a;
-  }
-  
-  .nav-item:first-child{
+}
+
+.nav-item:first-child {
     margin-right: auto;
     margin-left: 4rem;
-  }
+}
 
 .active {
     border-bottom: 1px solid #3a3a3a;
@@ -51,7 +55,9 @@ h1, h2, h3, h4 {
 
 /* hero image background and cover text */
 
-#hero-text, #cover-text h2, #cover-text h3 {
+#hero-text,
+#cover-text h2,
+#cover-text h3 {
     color: #fff;
 }
 
@@ -71,9 +77,9 @@ h1, h2, h3, h4 {
     text-align: center;
     width: 300px;
     height: 150px;
-    
+
     padding-top: 25px;
-    background-color: rgba(34,139,34,.6);
+    background-color: rgba(34, 139, 34, .6);
     border-radius: 40px;
 
     bottom: 0px;
@@ -168,34 +174,30 @@ hr {
 
 /* find us section */
 
-#find-us {
-    height: 500px;
-    width: 100%;
-    clear: both;
-}
-
-#left-map {
-    width: 50%;
-    box-sizing: border-box;
-    float: left;
-}
-
-#left-map img {
-    height: 405px;
-    width: 629px;
-    padding-left: 30px;
-}
-
-#right-map {
-    width: 50%;
-    box-sizing: border-box;
-    font-size: 250%;
-    margin: auto 0;
-    padding: 150px;
-    color: #3a3a3a;
-    float: left;
-    text-align: center;
-}
+.map {
+    height: auto;
+    margin: 0;
+    padding: 1rem 0;
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;  
+    
+  }
+  
+  .map-item a {
+    margin-right: 4rem;
+  }
+  
+  .map-item img {
+    margin-right: auto;
+    background-size: contain;
+  }
+  
+  .map-item a {
+    font-size: 300%;
+  }
 
 /* footer section */
 /* This section uses structure and code found in the 'love running' example project on the Code Institute learning platform */
@@ -237,6 +239,7 @@ hr {
     height: 620px;
     width: 100%;
 }
+
 /* The code below inspired by/taken from w3schools.com/howto_css_side_by_side */
 .row {
     display: flex;
@@ -269,22 +272,25 @@ hr {
 /* schedule table */
 
 table {
-	width: auto;
-    background-color: rgba(34,139,34,.6);
+    width: auto;
+    background-color: rgba(34, 139, 34, .6);
 }
 
 tr {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-tr, th, td {
-	text-align: center;
+tr,
+th,
+td {
+    text-align: center;
 }
 
-th, td {
-	border: 1px solid black;
-	padding: 5px;
+th,
+td {
+    border: 1px solid black;
+    padding: 5px;
 }
 
 /* gallery section */
@@ -296,10 +302,10 @@ th, td {
     column-gap: 0;
 }
 
-#gallery > img {
-    width: 100%; 
+#gallery>img {
+    width: 100%;
     height: auto;
-    padding: 2px; 
+    padding: 2px;
 }
 
 /* contact page form */
@@ -365,4 +371,130 @@ th, td {
     font-size: 110%;
     font-family: Merriweather, sans-serif;
     color: #fff;
+}
+
+/* Media queries section */
+
+@media screen and (max-width: 500px) {
+
+    /* navbar */
+    .nav-list {
+        flex-direction: column;
+        font-size: 75%;
+    }
+
+    /* map */
+    .map {
+        flex-direction: column;
+    }
+
+    .map-item a {
+        font-size: 75%;
+    }
+    /* footer */
+    .social-networks {
+        flex-direction: column;
+    }
+
+    /* gallery page */
+
+    #gallery {
+        column-count: 2;
+    }
+
+    .column {
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 500px) {
+
+    /* navbar */
+    .nav-list {
+        flex-direction: column;
+        font-size: 75%;
+    }
+
+    /* map */
+    .map {
+        flex-direction: column;
+    }
+
+    .map-item a {
+        font-size: 750%;
+    }
+
+    /* footer */
+    .social-networks {
+        flex-direction: column;
+    }
+
+    /* gallery page */
+
+    #gallery {
+        column-count: 2;
+    }
+
+    .column {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    /* navbar */
+    .nav-list {
+        flex-direction: row;
+        font-size: 100%;
+    }
+
+    /* map */
+    .map {
+        flex-direction: row;
+    }
+
+    .map-item a {
+        font-size: 100%;
+    }
+
+    /* footer */
+    .social-networks {
+        flex-direction: row;
+    }
+
+    /* gallery page */
+
+    #gallery {
+        column-count: 3;
+    }
+}
+
+@media screen and (in-width: 1000px) {
+    
+    /* navbar */
+    .nav-list {
+        flex-direction: row;
+        font-size: 100%;
+    }
+
+    /* map */
+    .map {
+        flex-direction: column;
+    }
+
+    .map-item a {
+        font-size: 200%;
+    }
+
+    /* footer */
+    .social-networks {
+        flex-direction: row;
+    }
+
+    /* gallery page */
+
+    #gallery {
+        column-count: 3;
+    }
+
 }
