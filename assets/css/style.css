@@ -55,38 +55,40 @@ h4 {
 
 /* hero image background and cover text */
 
-#hero-text,
-#cover-text h2,
-#cover-text h3 {
-    color: #fff;
-}
-
-#hero-image {
+.hero {
+    display: flex; 
     height: 600px;
-    width: 100%;
-    background: url("../images/hero2.webp") no-repeat center center;
-    background-size: cover;
     clear: both;
-}
-
-#cover-text {
-    font-size: 130%;
-    font-family: Merriweather, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    text-align: center;
-    width: 300px;
-    height: 150px;
-
-    padding-top: 25px;
-    background-color: rgba(34, 139, 34, .6);
-    border-radius: 40px;
-
-    bottom: 0px;
-    right: 50px;
-
-    position: absolute;
-}
+  }
+  
+  .hero-text,
+  .hero-text h2,
+  .hero-text h3 {
+      color: #fff;
+  }
+  
+  .hero-image {
+      height: 600px;
+      width: 100%;
+      background: url("../images/hero2.webp") no-repeat center center;
+  }
+  
+  .hero-text {
+      font-size: 130%;
+      font-family: Merriweather, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      
+      width: 200px;
+      height: 150px;
+      padding: 2rem;
+      background-color: rgba(34, 139, 34, .6);
+      border-radius: 40px;
+      align-items: center;
+      margin-right: 4rem;
+  
+      transform: translate(-100px, 400px);
+  }
 
 /* about us section */
 /* This section uses structure and code found in the 'love running' example project on the Code Institute learning platform */
@@ -182,8 +184,8 @@ hr {
     text-decoration: none;
     display: flex;
     justify-content: flex-end;
-    align-items: center;  
-    
+    align-items: center; 
+    justify-content: space-around; 
   }
   
   .map-item a {
@@ -197,6 +199,9 @@ hr {
   
   .map-item a {
     font-size: 300%;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around;
   }
 
 /* footer section */
@@ -383,6 +388,10 @@ td {
         font-size: 75%;
     }
 
+    .hero-image {
+        background-size: contain;
+    }
+
     /* map */
     .map {
         flex-direction: column;
@@ -394,6 +403,7 @@ td {
     /* footer */
     .social-networks {
         flex-direction: column;
+        font-size: 75%;
     }
 
     /* gallery page */
@@ -416,6 +426,12 @@ td {
         font-size: 75%;
     }
 
+    .hero-image {
+        height: auto;
+        width: auto;
+        background-size: contain;
+    }
+
     /* map */
     .map {
         flex-direction: column;
@@ -428,6 +444,7 @@ td {
     /* footer */
     .social-networks {
         flex-direction: column;
+        font-size: 75%;
     }
 
     /* gallery page */
@@ -448,18 +465,27 @@ td {
         font-size: 100%;
     }
 
+    .hero-image {
+        height: auto;
+        width: auto;
+        background-size: cover;
+    }
+
     /* map */
     .map {
         flex-direction: row;
     }
 
     .map-item a {
-        font-size: 100%;
+        font-size: 200%;
+        justify-items: center;
+        align-items: center;
     }
 
     /* footer */
     .social-networks {
         flex-direction: row;
+        font-size: 100%;
     }
 
     /* gallery page */
@@ -469,7 +495,7 @@ td {
     }
 }
 
-@media screen and (in-width: 1000px) {
+@media screen and (min-width: 1000px) {
     
     /* navbar */
     .nav-list {
@@ -477,13 +503,21 @@ td {
         font-size: 100%;
     }
 
+    .hero-image {
+        height: auto;
+        width: auto;
+        background-size: cover;
+    }
+
     /* map */
     .map {
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .map-item a {
         font-size: 200%;
+        justify-items: center;
+        align-items: center;
     }
 
     /* footer */
