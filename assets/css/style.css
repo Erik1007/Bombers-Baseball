@@ -94,23 +94,26 @@ h4 {
 
 /* about us section */
 /* This section uses structure and code found in the 'love running' example project on the Code Institute learning platform */
-#about-us {
+.about-us {
     height: 600px;
+    font-family: Merriweather, sans-serif;
+    line-height: 20px;
+    display: flex;
 }
 
-#left-about {
+.l-about {
     padding-top: 30px;
     width: 33%;
     float: left;
 }
 
-#right-about {
+.r-about {
     padding-top: 30px;
     width: 33%;
     float: right;
 }
 
-#center-about {
+.c-about {
     width: 33%;
     margin: 0 auto;
 }
@@ -121,21 +124,17 @@ hr {
     margin: 5px;
 }
 
-.left-about-heading {
+.l-about-item {
     width: 60%;
-    font-family: Merriweather, sans-serif;
     float: right;
-    line-height: 20px;
     clear: both;
     margin-bottom: 50px;
     letter-spacing: 2px;
 }
 
-.right-about-heading {
+.r-about-item {
     width: 60%;
-    font-family: Merriweather, sans-serif;
     float: left;
-    line-height: 20px;
     clear: both;
     margin-bottom: 50px;
     letter-spacing: 2px;
@@ -395,6 +394,29 @@ td {
         background-size: contain;
     }
 
+    /* about us */
+
+    .about-us {
+        display: flex;
+        flex-direction: column;
+        clear: both;
+    }
+    
+    .l-about {
+        padding-top: 15px;
+        width: 100%;
+    }
+    
+    .r-about {
+        padding-top: 15px;
+        width: 100%;
+    }
+    
+    .c-about {
+        width: 100%;
+        padding: 15px;
+    }
+
     /* map */
     .map {
         flex-direction: column;
@@ -403,6 +425,7 @@ td {
     .map-item a {
         font-size: 75%;
     }
+
     /* footer */
     .social-networks {
         flex-direction: column;
@@ -450,7 +473,30 @@ td {
     }
 
     .hero-image {
-        background-size: contain;
+        background-size: auto;
+    }
+
+    /* about us */
+
+    .about-us {
+        display: flex;
+        flex-direction: column;
+        clear: both;
+    }
+    
+    .l-about {
+        padding-top: 15px;
+        width: 100%;
+    }
+    
+    .r-about {
+        padding-top: 15px;
+        width: 100%;
+    }
+    
+    .c-about {
+        width: 100%;
+        padding: 15px;
     }
 
     /* map */
@@ -505,7 +551,30 @@ td {
     }
 
     .hero-image {
-        background-size: cover;
+        background-size: auto;
+    }
+
+    /* about us */
+
+    .about-us {
+        display: flex;
+        flex-direction: column;
+        clear: both;
+    }
+    
+    .l-about {
+        padding-top: 15px;
+        width: 66%;
+    }
+    
+    .r-about {
+        padding-top: 15px;
+        width: 66%%;
+    }
+    
+    .c-about {
+        width: 66%%;
+        margin: 0 auto;
     }
 
     /* map */
@@ -551,9 +620,30 @@ td {
     }
 
     .hero-image {
-        background-size: cover;
+        background-size: 100%;
     }
 
+    /* about us */
+
+    .about-us {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .l-about {
+        padding-top: 15px;
+        width: 33%%;
+    }
+    
+    .r-about {
+        padding-top: 15px;
+        width: 33%;
+    }
+    
+    .c-about {
+        width: 33%;
+        margin: 0 auto;
+    }
     /* map */
     .map {
         flex-direction: row;
