@@ -20,44 +20,33 @@ h1, h2, h3, h4 {
     letter-spacing: 2px;
     color: #252525;
 }
-.header {
-    height: 100px;
-    padding: 10px 20px;
-}
 
-#logo {    
-    float: left;
-    font-size: 300%;
-    padding-left: 30px;
-}
-
-/* nav bar styling */
-/* This section uses structure and code found in the 'love running' example project on the Code Institute learning platform */
-
-#menu {
-    font-size: 130%;
-    letter-spacing: 2px;
-}
-
-#menu, #logo {
-    line-height: 75px;
-}
-
-#menu li {
-    float: right;
+.nav-list {
+    background: white;
+    box-shadow: 0px 0px 10px var(--clr-gray200);
+    margin: 0;
+    padding: 1rem 0;
     list-style-type: none;
-    margin: 15px;
-    padding: 15px;
-}
-
-#menu a {
     text-decoration: none;
-    color: inherit;
-}
+    border-radius: 25px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;  
+  }
+  
+  .nav-item a {
+    margin-right: 2rem;
+    color: #3a3a3a;
+  }
 
-#menu a:hover {
+  .nav-item a:hover {
     border-bottom: 1px solid #3a3a3a;
-}
+  }
+  
+  .nav-item:first-child{
+    margin-right: auto;
+    margin-left: 2rem;
+  }
 
 .active {
     border-bottom: 1px solid #3a3a3a;
@@ -73,6 +62,7 @@ h1, h2, h3, h4 {
     height: 600px;
     width: 100%;
     background: url("../images/hero2.webp") no-repeat center center;
+    background-size: cover;
     clear: both;
 }
 
@@ -332,7 +322,7 @@ th, td {
 }
 
 .contact-form {
-    color: #fafafa
+    color: #fafafa;
     padding-left: 30px;
     padding-top: 15px;
     margin-top: 5px;
@@ -376,132 +366,4 @@ th, td {
     font-size: 110%;
     font-family: Merriweather, sans-serif;
     color: #fff;
-}
-
-/* media querries */
-/* This section uses structure and code found in the 'love running' example project on the Code Institute learning platform */
-
-/* for medium to large screen size */
-
-@media screen and (max-width: 1200px) {
-    #about-us {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-
-    #welcome {
-        padding: 30px 0;
-        margin: 0;
-    }
-
-    #schedule-left-about, #schedule-right-about {
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    #schedule-center-about {
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    #find-us {
-        width: 100%;
-        clear: both;
-        height: 150px;
-        padding: 0;
-
-    }
-
-    hr {
-        display: none;
-    }
-}
-
-/* for medium screen sizes of 950px and down */
-
-@media screen and (max-width: 950px) {
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
-
-    #cover-text {
-        left: 0;
-    }
-
-    #about-us {
-        width: 90%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-
-    .schedule-left-about-heading, .schedule-right-about-heading {
-        width: inherit;
-    }
-
-    .schedule-left-about-heading h2, .schedule-right-about-heading h2 {
-        width: 100%;
-        text-align: center;
-    }
-
-    .schedule-left-about-heading p, .schedule-right-about-heading p {
-        text-align: center;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    #gallery {
-        column-count: 3;
-    }
-}
-
-/* mobile screen max width 500 px */
-
-@media screen and (max-width: 500px){
-
-    
-
-    #gallery {
-        column-count: 2;
-    }
-
-    #menu li {
-        float: none;
-        width: 100%;
-    }
-
-    .column {
-        width: 100%;
-    }
-
-    /* contact page */
-
-    .form {
-        width: fit-content;
-        height: fit-content;
-    }
-
-    #info {
-        color: #3a3a3a;
-        text-align: center;
-    }
-
-    #contact {
-        color: #3a3a3a;
-    }
-
-    .contact-form {
-        color: #3a3a3a;
-        padding: 2px;
-    }
-
-
-
 }

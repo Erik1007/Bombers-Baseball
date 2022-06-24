@@ -123,7 +123,9 @@ e. Photoshop for rgba codes, and file conversion.
 
 f. w3c (https://validator.w3.org/) for error debugging and css assistance on class development in the schedule page and gallery page.
 
-g. w3schools.com/howto_css_images_side_by_side.asp to help sructure the updated schedule page changes
+g. w3schools.com/howto_css_images_side_by_side.asp to help sructure the updated schedule page changes.
+
+h. used (https://www.google.com/search?q=how+to+make+a+nav+bar+with+flex&rlz=1C1ONGR_enSE1005SE1005&oq=how+to+make+a+&aqs=chrome.0.69i59j69i57j0i512l8.4428j0j15&sourceid=chrome&ie=UTF-8#kpvalbx=_zHm1YteHBZ-Jxc8P_-u9mAY16) for help intigrating flex into the navbar.
 
 
 Media:
