@@ -59,6 +59,7 @@ h4 {
     display: flex; 
     height: 600px;
     clear: both;
+    justify-content: center;
   }
   
   .hero-text,
@@ -68,9 +69,10 @@ h4 {
   }
   
   .hero-image {
-      height: 600px;
       width: 100%;
+      height: auto;
       background: url("../images/hero2.webp") no-repeat center center;
+      clear: both;
   }
   
   .hero-text {
@@ -87,7 +89,7 @@ h4 {
       align-items: center;
       margin-right: 4rem;
   
-      transform: translate(-100px, 400px);
+      transform: translate(-175px, 300px);
   }
 
 /* about us section */
@@ -272,6 +274,7 @@ hr {
     padding: 4px;
     text-align: center;
     margin-bottom: 10px;
+    clear: both;
 }
 
 /* schedule table */
@@ -375,7 +378,7 @@ td {
     width: 33%;
     font-size: 110%;
     font-family: Merriweather, sans-serif;
-    color: #fff;
+    color: #3a3a3a;
 }
 
 /* Media queries section */
@@ -406,6 +409,16 @@ td {
         font-size: 75%;
     }
 
+    /* schedule page */
+
+    .container {
+        flex-direction: column;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
     /* gallery page */
 
     #gallery {
@@ -414,6 +427,16 @@ td {
 
     .column {
         width: 100%;
+    }
+
+    /* contact page */
+
+    #contact-form {
+        color: #3a3a3a;
+    }
+
+    .contact-form {
+        color: #3a3a3a;
     }
 
 }
@@ -427,8 +450,6 @@ td {
     }
 
     .hero-image {
-        height: auto;
-        width: auto;
         background-size: contain;
     }
 
@@ -447,6 +468,16 @@ td {
         font-size: 75%;
     }
 
+    /* schedule page */
+
+    .container {
+        flex-direction: column;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
     /* gallery page */
 
     #gallery {
@@ -455,6 +486,14 @@ td {
 
     .column {
         width: 100%;
+    }
+
+    #contact-form {
+        color: #3a3a3a;
+    }
+
+    .contact-form {
+        color: #3a3a3a;
     }
 }
 
@@ -466,8 +505,6 @@ td {
     }
 
     .hero-image {
-        height: auto;
-        width: auto;
         background-size: cover;
     }
 
@@ -486,6 +523,16 @@ td {
     .social-networks {
         flex-direction: row;
         font-size: 100%;
+    }
+
+    /* schedule page */
+
+    .container {
+        flex-direction: row;
+    }
+
+    .row {
+        flex-direction: row;
     }
 
     /* gallery page */
@@ -504,8 +551,6 @@ td {
     }
 
     .hero-image {
-        height: auto;
-        width: auto;
         background-size: cover;
     }
 
@@ -522,6 +567,16 @@ td {
 
     /* footer */
     .social-networks {
+        flex-direction: row;
+    }
+
+    /* schedule page */
+
+    .container {
+        flex-direction: row;
+    }
+
+    .row {
         flex-direction: row;
     }
 
