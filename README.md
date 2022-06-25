@@ -90,10 +90,6 @@ Testing:
 
 Unfixed bugs:
 
-There is one unfixed bug in for the webpage. It is on the gallery page and the bug states that the section does not include a header; which is intentional.
-The section is directly under the nav bar with the gallery page link underlined clearly indicating what page the site is on, and I therefor chose to skip having a redundant header that would take away from the collage of team pictures.
-
--> insert bug pic here:
 
 Deployment
 
@@ -126,6 +122,10 @@ f. w3c (https://validator.w3.org/) for error debugging and css assistance on cla
 g. w3schools.com/howto_css_images_side_by_side.asp to help sructure the updated schedule page changes.
 
 h. used (https://www.google.com/search?q=how+to+make+a+nav+bar+with+flex&rlz=1C1ONGR_enSE1005SE1005&oq=how+to+make+a+&aqs=chrome.0.69i59j69i57j0i512l8.4428j0j15&sourceid=chrome&ie=UTF-8#kpvalbx=_zHm1YteHBZ-Jxc8P_-u9mAY16) for help intigrating flex into the navbar.
+
+i. used (https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/) for assistance with keeping the footer in place when screen size changes.
+
+j. used (﻿https://code-institute-room.slack.com/archives/C01C4AU8ULA/p1628185827001300) for assistance to keep the footer inplace when the screen size changes.
 
 
 Media:
