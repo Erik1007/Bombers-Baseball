@@ -15,6 +15,8 @@ body {
 }
 
 #page-container {
+    display: flex;
+    flex-direction: column;
     position: relative;
     min-height: 100vh;
   }
@@ -65,6 +67,7 @@ h4 {
 .hero {
     display: flex; 
     height: 600px;
+    justify-content: center;
   }
   
   .hero-text,
@@ -427,7 +430,7 @@ td {
 
     /* footer */
     .social-networks {
-        flex-direction: column;
+        flex-direction: row;
         font-size: 75%;
     }
 
@@ -508,7 +511,7 @@ td {
     }
 
     .map-item a {
-        font-size: 750%;
+        
     }
 
     /* footer */
