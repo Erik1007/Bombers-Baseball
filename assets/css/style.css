@@ -215,8 +215,8 @@ hr {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 150px;
-    position: absolute;
+    height: 20vh;
+    position: relative;
     width: 100%;
     background-color: rgba(244, 10, 10, .6);
     list-style-type: none;
