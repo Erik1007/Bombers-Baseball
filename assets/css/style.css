@@ -100,8 +100,8 @@ h4 {
       align-items: center;
       margin-right: 4rem;
       position: absolute;
-      top: 50%;
-      right: 10%;
+      top: 37%;
+      right: 7%;
   }
 
 /* about us section */
@@ -640,6 +640,14 @@ td {
     #gallery {
         column-count: 3;
     }
+
+    .contact-form {
+        color: #fff;
+    }
+
+    .email {
+        color: #fff;
+    }
 }
 
 @media screen and (min-width: 1000px) {
@@ -711,6 +719,14 @@ td {
 
     #gallery {
         column-count: 3;
+    }
+
+    .contact-form {
+        color: #fff;
+    }
+
+    .email {
+        color: #fff;
     }
 
 }
