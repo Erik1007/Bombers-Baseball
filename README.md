@@ -40,7 +40,7 @@ The 'about us' section aims to provide a quick overview of some of the benefits 
 
 There is a map with a laid out plan for a person to travel from the metro station to the field and where the field is located in Stockholm. There are two links: one to the swedish transportion webpage for commuters and the second is to Google maps so that a visitor can find their own directions to the field.
 
-!['Find Us' section screenshot](assets/images/map.webp)
+!['Find Us' section screenshot](assets/images/find.webp)
 
 
 -**Footer:**
@@ -93,12 +93,15 @@ On the lower right hand side there are email links for the baseball team and the
 **Testing:**
 
 Using https://validator.w3.org/, each page was tested repeatedly to track and debug errors in the code, until all errors were eliminated in all pages of the code.
+
 ![html validation test results image](assets/images/html-validation.webp)
 
 using https://jigsaw.w3.org/css-validator/validator, the css stylesheet was tested to track errors and debugged until there are no errors in the code.
+
 ![css validation test results image](assets/images/css-validation.webp)
 
 Using Chrome Dev Tools to trouble shoot and test all pages repeatedly to track and debug the code for all the pages
+
 ![lighthouse performance results screenshot](assets/images/lighthouse.webp)
 
 
