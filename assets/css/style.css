@@ -391,6 +391,10 @@ td {
         font-size: 100%;
     }
 
+    .nav-item:first-child {
+        margin-left: 6.5rem;
+    }
+
     .hero-image {
         background-size: cover;
     }
@@ -481,6 +485,10 @@ td {
     .nav-list {
         flex-direction: column;
         font-size: 100%;
+    }
+
+    .nav-item:first-child {
+        margin-left: 15rem;
     }
 
     .hero-image {
