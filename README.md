@@ -1,14 +1,14 @@
-**Stockholm Bombers Baseball** site designed to welcome people of all skill levels around the area of Stockholm Sweden that want to play adult baseball in a relaxed and fun atmosphere. The site intends to target people that want to build/expand their social network, meet new people and have fun playing ‘America’s Past time’ with like minded people. 
+**Stockholm Bombers Baseball** site is designed to welcome people of all skill levels around the area of Stockholm Sweden that want to play adult baseball in a relaxed and fun atmosphere. The site intends to target people that want to build/expand their social network, meet new people and have fun playing ‘America’s Past time’ with like minded people. 
 
 The Stockholm Bombers are a long established adult baseball team, with a rich history that includes athletes of all levels and abilities (from lifelong players to first timers) from all around the world that just love the game and want to have fun. The site hopes to introduce the team, provide practice schedule, game schedule, team pics and a sign-up form. 
 
-**The webite color scheme:** The Stockholm Bombers Team Colors are White, Forest green and Red. Therefor I have been working on maintaining and representing the team colors as much as possible through the website.
+**The website color scheme:** The Stockholm Bombers Team colors are white, forest green and red. Therefor I have been working on maintaining and representing the team colors as much as possible through the website.
 
 ![Am I responsive screenshot](assets/images/responsive.webp)
 
 **Features:**
 
-This website consists of four pages that provide information about the team, motivate joining the team and provide multiple ways to contact the team leaders. The site is designed for a visitor to be able to easily navigate from page to page with consitent links and color schemes to be able to find information about the team, where the team plays, an accurate schedule of when the team plays, a gallery of pics showing the team having fun and lastly a means to contact the team and coaches if the visitor wants to play.
+This website consists of four pages that provide information about the team, motivate joining the team and provide multiple ways to contact the team leaders. The site is designed for a visitor to be able to easily navigate from page to page with consistent links and color schemes to be able to find information about the team, where the team plays, an accurate schedule of when the team plays, a gallery of pics showing the team having fun and lastly a means to contact the team and coaches if the visitor wants to play.
 
 
 **Existing Features:**
@@ -92,22 +92,24 @@ On the lower right hand side there are email links for the baseball team and the
 
 **Testing:**
 
-Using https://validator.w3.org/, each page was tested repeatedly to track and debug errors in the code, until all errors were eliminated in all pages of the code.
+1. Using https://validator.w3.org/, each page was tested repeatedly to track and debug errors in the code, until all errors were eliminated in all pages of the code.
 
 ![html validation test results image](assets/images/html-validation.webp)
 
-using https://jigsaw.w3.org/css-validator/validator, the css stylesheet was tested to track errors and debugged until there are no errors in the code.
+2. using https://jigsaw.w3.org/css-validator/validator, the css stylesheet was tested to track errors and debugged until there are no errors in the code.
 
 ![css validation test results image](assets/images/css-validation.webp)
 
-Using Chrome Dev Tools to trouble shoot and test all pages repeatedly to track and debug the code for all the pages
+3. Using Chrome Dev Tools to trouble shoot and test all pages repeatedly to track and debug the code for all the pages.
 
 ![lighthouse performance results screenshot](assets/images/lighthouse.webp)
 
 
 **Unfixed bugs:**
 
-As far as I am aware, I am unaware of any unfixed bugs. That is not to say that there are not any bugs, just that I am not aware of them.
+I am unaware of any unfixed bugs. That is not to say that there are not any bugs, just that I am not aware of them.
+
+The main source of bugs that were encountered in the development of this website centered on the issues of responsivness to varying screen sizes when 'float' was primarily used for <div> and <image> placement. The website was converted to using flex CSS along along with changing the media querries to 'min-width' there by improving the resposiveness of the site to varying screen sizes while maintaining the desired UI asthetic appeal. 
 
 
 **Deployment**
