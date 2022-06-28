@@ -74,7 +74,7 @@ The form on the left side has contact information and buttons to provide a littl
 
 On the lower right side there are email links for the baseball team and the two coaches that run the team.
 
-![contact page screenshot](assets/images/contact.webp)
+![contact page screenshot](assets/images/contact1.webp)
 
 
 **Future features to include and implement:**
@@ -109,9 +109,11 @@ On the lower right side there are email links for the baseball team and the two 
 
 **Unfixed bugs:**
 
-I am unaware of any unfixed bugs. That is not to say that there are not any bugs, just that I am not aware of them.
+To the best of my knowledge, all bugs were located and fixed during the debugging process.
 
 The main source of bugs that were encountered in the development of this website focused on the issues of responsiveness to varying screen sizes when 'float' was primarily used for <div> and <image> placement. The website was converted to using flex CSS along with changing the media queries  to 'min-width' there by improving the responsiveness of the site to varying screen sizes while maintaining the desired UI aesthetic appeal. 
+
+There is one 'blank' area in the bottom center column of the gallery page that will hold a link to the 'Roster' page that will be developed in the incoming future (see 'Future features to include and implement:' section). 
 
 
 **Deployment**
@@ -148,7 +150,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 9. used (https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/) for assistance with keeping the footer in place when screen size changes.
 
-10. used (﻿https://code-institute-room.slack.com/archives/C01C4AU8ULA/p1628185827001300) for assistance to keep the footer in place when the screen size changes.
+10. used (﻿https://code-institute-room.slack.com/archives/C01C4AU8ULA/p1628185827001300/) for assistance to keep the footer in place when the screen size changes.
 
 
 **Media:**
