@@ -274,6 +274,7 @@ hr {
     text-align: center;
     margin-bottom: 10px;
     justify-content: center;
+    border-bottom: 1px solid #3a3a3a;
 }
 
 /* schedule table */
@@ -320,7 +321,7 @@ td {
 /* This section uses structure and code found in the 'Coders Cafe' example project on the Code Institute learning platform */
 .form {
     clear: left;
-    background: url("../images/baseball.webp");
+    background: url("../images/baseball1.webp");
     background-size: cover;
     background-position: center;
     height: 700px;
@@ -328,17 +329,20 @@ td {
 }
 
 #contact-form {
-    color: #fafafa;
-    padding-left: 30px;
+    color: #3a3a3a;
+    padding-left: 40px;
     padding-top: 15px;
     margin-top: 5px;
 }
 
 .contact-form {
-    color: #fafafa;
-    padding-left: 30px;
+    color: #3a3a3a;
     padding-top: 15px;
     margin-top: 5px;
+}
+
+.contact-form-input, .info {
+    font-weight: 800;
 }
 
 #contact-form h2 {
@@ -432,6 +436,10 @@ td {
         flex-direction: column;
     }
 
+    .map-item {
+        padding: 5px;
+    }
+
     .map-item a {
         font-size: 150%;
     }
@@ -475,6 +483,7 @@ td {
 
     .contact-form {
         color: #3a3a3a;
+        padding-top: 40px;
     }
 
 }
@@ -485,10 +494,6 @@ td {
     .nav-list {
         flex-direction: column;
         font-size: 100%;
-    }
-
-    .nav-item:first-child {
-        margin-left: 15rem;
     }
 
     .hero-image {
@@ -649,13 +654,6 @@ td {
         column-count: 3;
     }
 
-    .contact-form {
-        color: #fff;
-    }
-
-    .email {
-        color: #fff;
-    }
 }
 
 @media screen and (min-width: 1000px) {
@@ -728,13 +726,4 @@ td {
     #gallery {
         column-count: 3;
     }
-
-    .contact-form {
-        color: #fff;
-    }
-
-    .email {
-        color: #fff;
-    }
-
 }
